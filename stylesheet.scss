@@ -741,6 +741,12 @@ footer {
     }
 
     main {
+        #mainvisiual {
+            height: 660px;
+            .top-image {
+                height: 580px;
+            }
+        }
         section {
             &#profile {
                 .container {
