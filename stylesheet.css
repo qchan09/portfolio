@@ -386,6 +386,7 @@ main section#profile .container .profile-info .profile-text h3 {
   font-size: 26px;
   font-weight: 500;
   margin-bottom: 45px;
+  line-height: 34px;
 }
 
 main section#profile .container .profile-info .profile-text p {
@@ -533,6 +534,10 @@ main section#contact .container .content #contact-nav ul li a:hover {
   opacity: 0.7;
   -webkit-transition: all .3s;
   transition: all .3s;
+}
+
+main section#contact .container .content #contact-nav ul li.twitter a img {
+  border-radius: 50%;
 }
 
 footer {
