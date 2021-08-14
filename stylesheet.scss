@@ -174,7 +174,7 @@ select {
 
 // -----default-----
 // @import url(https://fonts.googleapis.com/css2?family=Charmonman&family=Tangerine:wght@700:wght@700&display=swap);
-@import url(https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400&display=swap);
+// @import url(https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400&display=swap);
 // -----varible-----
 $maincolor: #000;
 $fontcolor: #333333;
@@ -271,7 +271,7 @@ header {
         .header-logo {
             a {
                 color: rgb(73, 218, 157);
-                font-family: 'Charmonman', cursive;
+                font-family: 'WindSong', cursive;
                 font-size: 20px;
                 transition: all .3s;
                 &:hover {
