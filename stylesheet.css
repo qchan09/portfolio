@@ -323,12 +323,12 @@ header .container #global-nav ul li a:hover::after {
   width: 100%;
 }
 
-main #mainvisiual {
+main .mainvisiual {
   height: 780px;
   position: relative;
 }
 
-main #mainvisiual .top-image {
+main .mainvisiual .top-image {
   width: 100%;
   height: 700px;
   margin-top: 80px;
@@ -341,12 +341,12 @@ main #mainvisiual .top-image {
   opacity: 0.0;
 }
 
-main #mainvisiual .top-image.active {
+main .mainvisiual .top-image.active {
   z-index: 10;
   opacity: 1.0;
 }
 
-main #mainvisiual .top-image.last-active {
+main .mainvisiual .top-image.last-active {
   z-index: 9;
 }
 
