@@ -7,9 +7,12 @@
     <title>Qchan's Portfolio</title>
     <meta name="description" content="フリーランス活動をしている千田究太郎のポートフォリオです。" />
     <meta name="keywords" content="web制作,コーディング" />
-    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="style.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=WindSong&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
     </style>
 </head>
 <body>
@@ -26,16 +29,16 @@
             <nav id="global-nav">
                 <ul>
                     <li>
-                        <a class="global-list" href="#profile">Profile</a>
+                        <a class="global-list" href="profile.html">Profile</a>
                     </li>
                     <li>
-                        <a class="global-list" href="#skill">Skill</a>
+                        <a class="global-list" href="skill.html">Skill</a>
                     </li>
                     <li>
-                        <a class="global-list" href="#works">Works</a>
+                        <a class="global-list" href="works.html">Works</a>
                     </li>
                     <li>
-                        <a class="global-list" href="#contact">Contact</a>
+                        <a class="global-list" href="contact.html">Contact</a>
                     </li>
                 </ul>
             </nav>
@@ -43,6 +46,7 @@
     </header>
     <main>
         <div class="mainvisiual">
+                <h1>KYUTARO SENDA</h1>
             <div class="top-image active" id="image1" style="background-image: url(image/titibugahama.PNG);"></div>
             <div class="top-image" id="image2" style="background-image: url(image/image2.png);"></div>
             <div class="top-image" id="image2" style="background-image: url(image/image3.png);"></div>
@@ -57,7 +61,28 @@
                         <img src="image/profile-image.jpg" alt="自己紹介用写真">
                     </div>
                     <div class="profile-text">
-                        <h3>千田 究太郎</h3>
+                        <div>
+                            <h3>千田 究太郎（Qちゃん）</h3>
+                            <nav id="contact-nav">
+                                <ul>
+                                    <li class="twitter"> 
+                                        <a href="https://twitter.com/q_senbei" target="_blank">
+                                            <img src="image/twitter.jpeg" alt="twitterのアイコン">
+                                        </a>
+                                    </li>
+                                    <!-- <li class="instagram">
+                                        <a href="">
+                                            <img src="image/instagram.jpeg" alt="instagramのアイコン">
+                                        </a>
+                                    </li> -->
+                                    <li class="e-mail">
+                                        <a href="mailto:bb49taro&#64;gmail.com" target="_blank">
+                                            <img src="image/e-mail.jpeg" alt="e-mailのアイコン">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
                         <p>
                             1997年生まれ｜三重県出身 | フリーランスWebエンジニア
                             <br>
@@ -67,52 +92,12 @@
                             <br>「質」や「スピード」だけでなく、お客様の期待以上のものを提供させていただきます。
                             <br>また、お客様との丁寧なコミュニケーションを常に心がけ、最後まで責任を持ってお仕事に取り組ませていただきます。
                             <br>
-                            <br>#フルマラソン3時間半 #野球好き #カメラ好き
                         </p>
                     </div>
                 </div>
-                <!-- <div class="pre-text scroll-up">
-                    <p>初めまして！千田究太郎と申します。<br>
-                        <br>
-                            「質」や「スピード」だけでなく、お客様の期待以上のものを提供させていただきます。<br>
-                        <br>
-                            また、お客様との丁寧なコミュニケーションを常に心がけ、最後まで責任を持ってお仕事に取り組ませていただきます。
-                        </p>
+                <div class="btn-area scroll-up">
+                    <a class="button" href="profile.html"><span>more</span></a>                </div>
                 </div>
-                <div class="profile-info scroll-up">
-                    <div class="profile-image">
-                        <img src="image/profile-image.jpg" alt="自己紹介用写真">
-                    </div>
-                    <div class="profile-text">
-                        <dl>
-                            <dt>名前</dt>
-                            <dd>千田 究太郎</dd>
-                            <dt>生年月日</dt>
-                            <dd>1997.09.07</dd>
-                            <dt>趣味</dt>
-                            <dd>野球/カメラ</dd>
-                            <dt>経歴</dt>
-                            <dd>
-                                <span>2021年3月</span>
-                                <br>
-                                名古屋工業大学工学部物理工学科卒業
-                                <br>
-                                <br>
-                                <span>2021年4月</span>
-                                <br>
-                                IT・Web関連会社入社
-                                <br>
-                                <br>
-                                <span>2021年7月</span>
-                                <br>
-                                フリーランスWebエンジニア
-                                <br>
-                                <br>
-                            </dd>
-                        </dl>
-                    </div>
-                </div> -->
-            </div>
         </section>
         <section id="skill">
             <div class="container">
@@ -136,6 +121,12 @@
                         <img src="image/wordpress-icon.svg" alt="wordpressのアイコン">
                         <p>更新頻度の高いホームページやブログ、WebサイトなどをWordPressで構築します。また、テーマのカスタマイズや既存サイトのWordPress化も承ります。</p>
                     </div>
+                    <div class="skill-item scroll-up" id="v-edit">
+                        <img src="image/v-edit.png" alt="動画編集のアイコン">
+                        <p>自身が運営するYouTubeチャンネルで動画30本以上の編集経験があります。使用ソフトはAdobe Premiere Proです。<br>
+                            また、アナリティクスでの分析も得意としております。</p>
+                    </div>
+
                 </div>
             </div>
         </section>
@@ -214,28 +205,12 @@
                     <h2>Contact</h2>
                 </div>
                 <div class="content scroll-up">
-                    <p>ご依頼やご相談は以下のメール・Twitterよりお願いいたします。
-                        <br> 原則、翌日までにご返信いたします。
+                    <p>お見積もりは無料です。
+                        <br> まずはお気軽にご相談ください。
                     </p>
-                    <nav id="contact-nav">
-                        <ul>
-                            <li class="e-mail">
-                                <a href="mailto:qsenbei99&#64;gmail.com" target="_blank">
-                                    <img src="image/e-mail.jpeg" alt="e-mailのアイコン">
-                                </a>
-                            </li>
-                            <li class="twitter"> 
-                                <a href="https://twitter.com/q_senbei" target="_blank">
-                                    <img src="image/twitter.jpeg" alt="twitterのアイコン">
-                                </a>
-                            </li>
-                            <!-- <li class="instagram">
-                                <a href="">
-                                    <img src="image/instagram.jpeg" alt="instagramのアイコン">
-                                </a>
-                            </li> -->
-                        </ul>
-                    </nav>
+                </div>
+                <div class="btn-area scroll-up">
+                    <a class="button" href="https://forms.gle/9QHnucBGBrZwMz1r6" target="_blank"><span>無料相談はこちら</span></a>
                 </div>
             </div>
         </section>

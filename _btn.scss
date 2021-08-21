@@ -1,0 +1,71 @@
+.btn-area {
+    width: 100%;
+    text-align: center;
+}
+.button {
+    position: relative;
+    display: inline-block;
+    padding: .7em 2em;
+    border: 2px solid #fff;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    transition: all .3s;
+    background-color: #F2F5F8;
+    // width: 104px;
+  }
+  .button::before,
+  .button::after,
+  .button span::before,
+  .button span::after {
+    position: absolute;
+    z-index: 2;
+    content: '';
+    width: 0;
+    height: 0;
+    border: 2px solid transparent;
+    transition: all .3s;
+    visibility: hidden;
+    box-sizing: content-box;
+  }
+  .button::before {
+    top: -2px;
+    left: -2px;
+    border-left-color: #959595;
+  }
+  .button::after {
+    bottom: -2px;
+    right: -2px;
+    border-right-color:  #959595;
+  }
+  .button span::before {
+    bottom: -2px;
+    left: -2px;
+    border-bottom-color: #959595;
+  }
+  .button span::after {
+    top: -2px;
+    right: -2px;
+    border-top-color: #959595;
+  }
+  .button:hover {
+    color: #00cec9;
+  }
+  .button:hover::before,
+  .button:hover::after {
+    height: 100%;
+    visibility: visible;
+  }
+  .button:hover span::before,
+  .button:hover span::after {
+    width: 100%;
+    visibility: visible;
+  }
+  a {
+      font-size: 16px;
+      font-family: $textstyle;
+  }
+  span {
+    color: #959595;
+  }

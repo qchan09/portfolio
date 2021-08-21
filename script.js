@@ -9,13 +9,7 @@ $(function () {
         $("#menu-icon").toggleClass("open");
         $("#global-nav").toggleClass("sp_open");
     });
-    // ------------------------------
-    // ------ふわっと表示-----
-        // $(window).on("load", function() {
-        // $('').delay(600).fadeIn("slow");
-        // });
-    // ------------------------
-    
+    // ------------------------------    
     
 });
 // -----トップ画面のスライドショー-----
@@ -55,48 +49,4 @@ $(function () {
     });
     jQuery(window).scroll();
 });
-// -------------------------------------
-// $(function(){
-//     load_effect();
-//     $(window).scroll(function (){
-//         scroll_effect();
-//     });
-// });
-
-// $(function(){
-//     //ふわっとロード
-// function load_effect(){
-//     var tt = $(window).scrollTop();
-//     var hh = $(window).height();
-//     $('.load-fade').each(function(){
-//         var yy = $(this).offset().top;
-//         if (tt > yy - hh){
-//             $(this).addClass('effect');
-//         }
-//     });
-//     $('.load-up').each(function(){
-//         var yy = $(this).offset().top;
-//         if (tt > yy - hh){
-//             $(this).addClass('effect');
-//         }
-//     });
-// }
-
-// //ふわっとスクロール
-// function scroll_effect(){
-//     var tt = $(window).scrollTop();
-//     var hh = $(window).height();
-//     // $('.scroll-fade').each(function(){
-//     //     var yy = $(this).offset().top+400;//効果発生開始タイミングを操作したい場合は数値を変更する
-//     //     if (tt > yy - hh){
-//     //         $(this).addClass('effect');
-//     //     }
-//     // });
-//     $('.scroll-up').each(function(){
-//         var yy = $(this).offset().top+400;//効果発生開始タイミングを操作したい場合は数値を変更する
-//         if (tt > yy - hh){
-//             $(this).addClass('effect');
-//         }
-//     });
-// }
-// });
+// ------------------------------
