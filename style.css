@@ -840,6 +840,9 @@ footer .container small {
   main #mainvisiual .top-image {
     height: 580px;
   }
+  main section {
+    padding: 120px 0;
+  }
   main section#profile .container .profile-info {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -869,6 +872,10 @@ footer .container small {
   }
   main section#profile .container .profile-info .profile-text div h3 {
     margin-right: 0;
+  }
+  main section#profile .container .profile-info .profile-text div h3 span {
+    display: block;
+    color: #333333;
   }
   main section#skill .container .skill-items {
     -webkit-box-orient: vertical;

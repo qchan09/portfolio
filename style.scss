@@ -733,6 +733,7 @@ footer {
             }
         }
         section {
+            padding: 120px 0;
             &#profile {
                 .container {
                     .profile-info {
@@ -751,6 +752,10 @@ footer {
                                 align-items: center;
                                 h3 {
                                     margin-right: 0;
+                                    span {
+                                        display: block;
+                                        color: #333333;
+                                    }
                                 }
                             }
                         }
